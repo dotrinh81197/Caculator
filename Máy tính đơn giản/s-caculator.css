@@ -1,0 +1,29 @@
+input[type=button] {
+    background: lightGray;
+    width: 80px;
+    font-size: 20px;
+    font-weight: 200px;
+    border-radius: 7px;
+    margin-left: 13px;
+    margin-top: 10px;
+  }
+  input[type=button]:active {
+    box-shadow: 0 3px rgb(14, 74, 82);
+    transform: translateY(4px);
+  }
+  input[type=button]:hover {
+    background-color: #009df8;
+    color: white;
+  }
+input[type=text]{
+    display: block;
+    position: absolute;
+    width: 320px;
+    font-size: 20px;
+    padding: 5px;
+    box-shadow: 4px 0px 12px rgb(0, 113, 179) ;
+    margin: 5px 20px auto;
+
+}
+
+
